@@ -5,16 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing-Page</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">">
 </head>
 <body>
   
   <header id="header">
     <nav id="nav-bar">
-      <div class="logo-container">
-        <img src="https://w7.pngwing.com/pngs/655/930/png-transparent-false-error-missing-absent-x-red-cross-letter-circle-gui.png" alt="x"
-        id="header-image">
+      <div id="brand">
+        <div class="logo-container">
+          <img src="https://w7.pngwing.com/pngs/655/930/png-transparent-false-error-missing-absent-x-red-cross-letter-circle-gui.png" alt="x"
+          id="header-image">
+        </div>
+        <span id="title">This is the Brand</span>
+
       </div>
-      <span class="title">This is the Brand</span>
       <ul class="links">
         <li class="nav-link"><a href="#renders">Renders</a></li>
         <li class="nav-link"><a href="#ue5">UE5</a></li>
@@ -23,19 +29,19 @@
     </nav>
   </header>
 
+  <section id="main">
     <div>
-      <div>
-        <h1>This website is awesome</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos facere vitae omnis a. Alias, doloribus magnam eum nobis porro consequuntur explicabo ipsum reiciendis, fuga recusandae, corrupti quasi nihil nesciunt!</p>
-        <button>Sign up</button>
-      </div>
-      <div>
-        <p>this is an image</p>
-      </div>
+      <h1>This website is awesome</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos facere vitae omnis a. Alias, doloribus magnam eum nobis porro consequuntur explicabo ipsum reiciendis, fuga recusandae, corrupti quasi nihil nesciunt!</p>
+      <button>Sign up</button>
     </div>
-  </div>
+    <div>
+      <p>this is an image</p>
+    </div>
+  </section>
+
   
-  <div class="info">
+  <section id="info">
     <h3>Some random information.</h3>
     <div>
       <div></div>
@@ -53,16 +59,16 @@
       <div></div>
       <p>this is some very important info about what is above</p>
     </div>
-  </div>
+  </section>
 
-  <div class="big-quote">
+  <section id="quote">
     <div>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quod harum deleniti laudantium earum doloremque ea pariatur totam error inventore, saepe commodi fugiat iure! Quam minima sunt ipsa rerum eum?</p>
       <p>-Quote by person</p>
     </div>
-  </div>
+  </section>
 
-  <div class="action-call">
+  <section id="action-call">
     <div>
       <div>
         <h5>Call to action!</h5>
@@ -70,10 +76,11 @@
       </div>
       <button>Sign up</button>
     </div>
-  </div>
+  </section>
 
-  <div class="footer">
+  <footer id="footer">
     <p>Copyright Andrew 2023</p>
-  </div>
+  </footer>
+
 </body>
 </html>

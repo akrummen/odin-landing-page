@@ -1,23 +1,51 @@
+/* applies to all */
+
 :root {
-  --black: rgb 
+  --black: rgb (0, 0, 0);
+  --gray: #878686
+  --lightgray   #a8a8a8
 }
 
 * {
   margin: 0;
 }
 
-#header-image {
-  width: 50px;
-  object-fit: contain;
-}
+/* applies to everything in the header */
 
 #nav-bar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  background-color: var(--gray)
 }
+
+/* applies to left side of header */
+
+#brand {
+  display: flex;
+  gap: 20px;
+}
+
+#header-image {
+  width: 50px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Young Serif', serif;
+}
+
+/* header links */
 
 .links {
   display: flex;
+  gap: 20px;
+  margin-right: 20px;
 }
 
 .nav-link {
@@ -26,24 +54,5 @@
 
 .nav-link a {
   text-decoration: none;
-}
-
-.info {
-  background-color: darkgreen;
-}
-
-.big-quote {
-  background-color: lightgray;
-}
-
-.action-call {
-  background-color: darkgreen;
-}
-
-.footer {
-  background-color: gray;
-}
-
-#title {
-  display: flex;
+  color: var(--black);
 }
